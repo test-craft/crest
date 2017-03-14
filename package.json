@@ -1,8 +1,7 @@
 {
-  "name": "crest",
+  "name": "tc-crest",
   "description": "REST Server for MongoDB",
-  "version": "0.0.4",
-  "author": "Ricard Aspeljung <ricard@opendia.se>",
+  "version": "0.0.1",
   "main": "server.js",
   "directories": {
     "lib": "./lib"
@@ -17,16 +16,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/cordazar/crest.git"
-  },
-  "bugs": {
-    "url": "https://github.com/Cordazar/crest/issues"
+    "url": "git://github.com/test-craft/crest.git"
   },
   "dependencies": {
     "mongodb": "1.2.x",
     "restify": "2.3.x",
-    "traverse": "^0.6.6",
-    "traverse-async": "^0.1.6"
+    "traverse": "^0.6.6"
   },
   "devDependencies": {
     "supertest": "0.5.x",
