@@ -5,6 +5,8 @@
  * crest
  */
 
+//TODO: Manage connection pool
+
 var fs = require("fs"),
   mongodb = require("mongodb"),
   restify = module.exports.restify = require("restify");
